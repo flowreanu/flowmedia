@@ -6,7 +6,7 @@ const FOOTER_LINKS = [
   { label: "Instagram", href: "https://instagram.com" },
   { label: "YouTube",   href: "https://www.youtube.com/@tyDified" },
   { label: "Vimeo",     href: "https://vimeo.com" },
-  { label: "Email",     href: "mailto:andrei@proton.me" },
+  { label: "Email",     href: "mailto:andreitufaru@proton.me" },
 ];
 
 export function CtaFooter() {
@@ -85,11 +85,11 @@ export function CtaFooter() {
           className="mt-10 flex items-center gap-3 flex-wrap justify-center"
         >
           <a
-            href="mailto:andrei@proton.me"
+            href="mailto:andreitufaru@proton.me"
             className="flex items-center gap-1.5 rounded-full px-8 py-4 text-base font-medium text-background hover:opacity-90 transition-opacity"
             style={{ background: "hsl(var(--ochre))" }}
           >
-            andrei@proton.me <ArrowUpRight className="size-4" />
+            andreitufaru@proton.me <ArrowUpRight className="size-4" />
           </a>
           <a
             href="#work"
