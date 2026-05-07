@@ -7,19 +7,19 @@ export const SERVICES = [
     icon: "Layers",
     title: "Motion Graphics",
     body: "Animated titles, kinetic typography, logo reveals, and full motion packages. Built in After Effects with the kind of timing that makes people rewatch.",
-    tag: "After Effects · Cinema 4D",
+    tag: "After Effects",
   },
   {
     icon: "Scissors",
     title: "Video Editing",
     body: "Story-driven cuts for YouTube, social, brand films, and short-form content. Pacing, rhythm, and narrative — not just trimming clips.",
-    tag: "Premiere Pro · DaVinci Resolve",
+    tag: "Premiere Pro",
   },
   {
     icon: "Music2",
     title: "Sound Design",
     body: "SFX layering, audio cleanup, music sync, and mix. The part of the edit most people forget — until it's missing.",
-    tag: "Audition · iZotope · Foley",
+    tag: "Audition",
   },
 ] as const;
 
@@ -69,4 +69,4 @@ export const FAQ_ITEMS = [
   { q: "What are your rates?",                           a: "Rates depend on the project length, complexity, and turnaround. Send me a brief and I'll give you a clear quote — no vague 'starting from' pricing." },
 ] as const;
 
-export const PARTNERS = ["YouTube", "Instagram", "Premiere Pro", "After Effects", "DaVinci", "Audition"] as const;
+export const PARTNERS = ["YouTube", "Instagram", "Premiere Pro", "After Effects", "Audition"] as const;
