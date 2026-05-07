@@ -3,6 +3,7 @@ import { Navbar }        from "@/components/Navbar";
 import { Hero }          from "@/components/Hero";
 import { ServicesBento } from "@/components/ServicesBento";
 import { Work }          from "@/components/Work";
+import { Rates }         from "@/components/Rates";
 import { Pourquoi }      from "@/components/Pourquoi";
 import { Process }       from "@/components/Process";
 import { Stats }         from "@/components/Stats";
@@ -19,6 +20,7 @@ export default function App() {
         <Hero scrollRef={heroRef} />
         <ServicesBento />
         <Work />
+        <Rates />
         <Pourquoi />
         <Process />
         <Stats />

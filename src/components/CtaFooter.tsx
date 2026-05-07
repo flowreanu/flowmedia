@@ -85,11 +85,11 @@ export function CtaFooter() {
           className="mt-10 flex items-center gap-3 flex-wrap justify-center"
         >
           <a
-            href="mailto:andreitufaru@proton.me"
+            href="mailto:andrei@flowmedia.studio"
             className="flex items-center gap-1.5 rounded-full px-8 py-4 text-base font-medium text-background hover:opacity-90 transition-opacity"
             style={{ background: "hsl(var(--ochre))" }}
           >
-            andreitufaru@proton.me <ArrowUpRight className="size-4" />
+            andrei@flowmedia.studio <ArrowUpRight className="size-4" />
           </a>
           <a
             href="#work"

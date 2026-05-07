@@ -3,10 +3,11 @@ import { motion } from "framer-motion";
 import { ArrowUpRight, Menu, X } from "lucide-react";
 
 const NAV_ITEMS = [
-  { label: "Services",     href: "#services" },
-  { label: "Work",         href: "#work" },
-  { label: "Process",      href: "#process" },
-  { label: "FAQ",          href: "#faq" },
+  { label: "Services", href: "#services" },
+  { label: "Work",     href: "#work" },
+  { label: "Rates",    href: "#rates" },
+  { label: "Process",  href: "#process" },
+  { label: "FAQ",      href: "#faq" },
 ];
 
 export function Navbar() {
@@ -28,7 +29,6 @@ export function Navbar() {
         transition={{ duration: 0.4, ease: [0.22, 1, 0.36, 1] as [number,number,number,number] }}
       >
         <div className="liquid-glass rounded-full px-2 py-2 flex items-center justify-between gap-4">
-          {/* Logo */}
           <a href="#" className="flex items-center gap-2.5 pl-3 shrink-0">
             <div
               className="w-7 h-7 rounded-lg flex items-center justify-center"
@@ -39,7 +39,6 @@ export function Navbar() {
             <span className="font-display text-lg tracking-tight text-foreground">FlowMedia</span>
           </a>
 
-          {/* Center nav */}
           <nav className="hidden md:flex items-center gap-1">
             {NAV_ITEMS.map((item) => (
               <a
@@ -52,7 +51,6 @@ export function Navbar() {
             ))}
           </nav>
 
-          {/* CTA */}
           <div className="flex items-center gap-2">
             <a
               href="#cta"
