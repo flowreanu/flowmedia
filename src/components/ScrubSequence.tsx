@@ -8,7 +8,7 @@ export type ScrubSequenceProps = {
   scrollTargetRef: React.RefObject<HTMLElement | null>;
 };
 
-const pad4 = (n: number) => String(n).padStart(5, "0");
+const pad4 = (n: number) => String(n).padStart(4, "0");
 
 export function ScrubSequence({
   framesPath,
